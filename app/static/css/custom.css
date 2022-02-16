@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.bckgsite {
+	background-repeat:  no-repeat;
+	background-size: cover;
+	background-position: center;
+    height: 85%;
+	-webkit-filter: brightness(100%);
+}
+
+.bckgsite:hover{
+	-webkit-filter: brightness(70%);
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+
